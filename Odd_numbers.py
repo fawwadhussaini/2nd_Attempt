@@ -3,7 +3,7 @@ def Odd_number(x):
         if (a%2!=0):
             print (a, ' is an odd number')
 
-# Odd_number(30)
+Odd_number(30)
 
 # Program to check either a number is prime or not!
 def Prime_number(i):
