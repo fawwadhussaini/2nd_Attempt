@@ -6,7 +6,6 @@ def donuts(count):
 
 donuts(9)
 
-
 def both_ends(s):
     if (len(s) < 2):
         print(s)
@@ -20,3 +19,13 @@ def fix_start (f):
     print (f[0:1] + f[1:].replace('c','^'))
 
 fix_start ('cricket by chance')
+
+def mix_up (a,b):
+    e = a + ' ' + b
+    print (e)
+    d = a[0:2] + b[2:]
+    c = b[0:2] + a[2:]
+    e = c + ' ' + d
+    print (e)
+
+mix_up('pepsi','cola')
