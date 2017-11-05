@@ -8,7 +8,7 @@ donuts(9)
 
 def both_ends(s):
     if (len(s) < 2):
-        print(s)
+        print('')
     else:
         print (s[0:2] + s[-2:8])
         print (s[0:2] + s[len(s)-2:])
@@ -29,3 +29,17 @@ def mix_up (a,b):
     print (e)
 
 mix_up('pepsi','cola')
+
+def verbing(v):
+    if (len(v)>=3):
+        if(v[-3:len(v)] == 'ing'):
+            print ( v + 'ly')
+        else:
+            print ( v + 'ing')
+    else:
+        print (v)
+
+verbing ('interest')
+verbing ('ke')
+verbing ('playing')
+
