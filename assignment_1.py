@@ -10,7 +10,7 @@ def both_ends(s):
     if (len(s) < 2):
         print('')
     else:
-        print (s[0:2] + s[-2:8])
+        #print (s[0:2] + s[-2:8])
         print (s[0:2] + s[len(s)-2:])
 
 both_ends ('pakistan')
@@ -38,8 +38,4 @@ def verbing(v):
             print ( v + 'ing')
     else:
         print (v)
-
-verbing ('interest')
-verbing ('ke')
-verbing ('playing')
 
